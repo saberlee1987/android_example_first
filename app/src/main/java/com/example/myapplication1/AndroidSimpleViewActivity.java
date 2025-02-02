@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class AndroidSimpleViewActivity extends AppCompatActivity {
+
     public static final String EXTRA_KEY_FULL_NAME = "fullName";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
