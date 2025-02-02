@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue"
+        tools:context=".MainActivity">
+    
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_profile"
+            android:ems="10"
+            android:id="@+id/buttonEditProfile"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSayHello"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:minHeight="48dp" app:layout_constraintHorizontal_bias="0.502" android:layout_marginTop="24dp"/>
+    <TextView
+            android:text="Hello World"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/helloWorld"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="24dp"
+            android:textSize="16sp"/>
+  <EditText
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:inputType="text"
+          android:textColor="@color/white"
+          android:hint="first name"
+          android:ems="10"
+          android:id="@+id/editTextFirstName"
+          app:layout_constraintTop_toBottomOf="@+id/helloWorld"
+          android:layout_marginTop="16dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          android:autofillHints="first name"
+          tools:ignore="LabelFor"
+          android:minHeight="48dp"/>
+  
+  <EditText
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:inputType="text"
+          android:hint="last name"
+          android:textColor="@color/white"
+          android:ems="10"
+          android:id="@+id/editTextLastName"
+          app:layout_constraintTop_toBottomOf="@+id/editTextFirstName"
+          android:layout_marginTop="16dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          android:autofillHints="first name"
+          tools:ignore="LabelFor"
+          android:minHeight="48dp"/>
+  
+  <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="say Hello"
+          android:ems="10"
+          android:id="@+id/buttonSayHello"
+          app:layout_constraintTop_toBottomOf="@+id/editTextLastName"
+          android:layout_marginTop="16dp"
+          android:textColor="@color/white"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          android:minHeight="48dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

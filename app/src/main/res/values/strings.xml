@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Application1</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="helloWorld">Hello World</string>
+    <string name="sayHello">say Hello</string>
+    <string name="android_simple_views">Android Simple Views</string>
+    <string name="ok">OK</string>
+    <string name="hint_firstName">enter the firstName</string>
+    <string name="hint_lastName">enter the lastName</string>
+    <string name="sayHello_button">Say Hello</string>
+    <string name="constraint_layout_test">constraint layout</string>
+    <string name="editProfile">edit Profile</string>
+    <string name="done">Done</string>
+    <string name="viewWebsite">view Website</string>
+    <string name="main_android_development">Android Development</string>
+    <string name="uiDesign">Ui design</string>
+    <string name="deepLearning">deep Learning</string>
+    <string name="skills">Skills</string>
+    <string name="provinceCity">Province , City</string>
+    <string name="gilanRasht">Gilan , Rasht</string>
+    <string name="tehran">Tehran , Tehran</string>
+    <string name="alborzKaraj">Alborz , Karaj</string>
+    <string name="saveInformation">save Information</string>
+    <string name="profile_image_desc">profile image</string>
+    <string name="hint_editProfile">Enter the fullName</string>
+</resources>
